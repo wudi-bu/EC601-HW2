@@ -52,6 +52,7 @@ class ViewController: UIViewController,FBSDKLoginButtonDelegate{
                 return
             }
             if let email = result as? [String:[AnyObject]]{
+                print("#####################################################################")
                 print(email) //print current login user's email in the console
             }
         })

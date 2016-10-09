@@ -67,7 +67,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1212" y="62.518740629685162"/>
+            <point key="canvasLocation" x="830" y="54"/>
         </scene>
         <!--Name View Controller-->
         <scene sceneID="1cx-Qi-ehq">
@@ -102,16 +102,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hdv-cL-JpE">
+                                <frame key="frameInset" minY="367" width="375" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="Name" destination="xA5-tH-wJQ" id="sLB-27-sde"/>
+                        <outlet property="webVIew" destination="Hdv-cL-JpE" id="1lv-jV-aJU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7l6-TH-aij" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2049" y="-1"/>
+            <point key="canvasLocation" x="1568.8" y="53.523238380809602"/>
         </scene>
         <!--Welcome View Controller-->
         <scene sceneID="65G-Of-ZOL">
@@ -175,7 +181,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z2c-Jt-oms" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2810.4000000000001" y="169.56521739130437"/>
+            <point key="canvasLocation" x="-572" y="54"/>
         </scene>
         <!--Page View Controller-->
         <scene sceneID="vw2-ZB-2fP">
@@ -183,7 +189,7 @@
                 <pageViewController storyboardIdentifier="PageViewController" autoresizesArchivedViewToFullSize="NO" modalTransitionStyle="flipHorizontal" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="bnq-1R-R6s" customClass="PageViewController" customModule="ec601_homework2" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JVP-gy-UcZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-510" y="157"/>
+            <point key="canvasLocation" x="-1210" y="54"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="3gL-dg-vQB">
@@ -201,7 +207,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OBg-rC-1q3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="272.80000000000001" y="62.518740629685162"/>
+            <point key="canvasLocation" x="81" y="54"/>
         </scene>
     </scenes>
     <resources>

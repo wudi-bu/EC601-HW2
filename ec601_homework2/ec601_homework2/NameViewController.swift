@@ -10,10 +10,17 @@ import UIKit
 
 class NameViewController: UIViewController {
     //Name samples
+    @IBOutlet weak var webVIew: UIWebView!
     var name_array = ["李思图","王晓天","赵一凡","陈思源","富贵山"]
     @IBOutlet weak var Name: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        let talkshow_link:String = "https://www.youtube.com/embed/s-RNqQxwg-Y"
+        let width = 375
+        let height = 300
+        let frame = 30;
+        let Code:NSString = "<iframe width=\(width) height=\(height) src=\(talkshow_link) frameborder=\(frame) allowfullscreen></iframe>" as NSString;
+        self.webVIew.loadHTMLString(Code as String, baseURL: nil)
 
         // Do any additional setup after loading the view.
     }
